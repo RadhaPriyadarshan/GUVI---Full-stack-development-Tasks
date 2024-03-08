@@ -1,0 +1,16 @@
+
+label{
+    color: aliceblue;
+}
+.container{ 
+    padding: 25px 25px 25px 25px;
+    background-color: rgb(62, 62, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.item1{
+    padding-right: 85px;
+    
+}
