@@ -1,0 +1,63 @@
+body{
+  background: rgb(3,102,231);
+  background: linear-gradient(90deg, rgba(3,102,231,1) 0%, rgba(23,137,243,1) 49%, rgba(49,171,254,1) 100%);
+}
+
+.container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  background-color: white;
+  flex: 0 1 24%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.scheme{
+  text-align: center;
+  color: gray;
+}
+.amount{
+  text-align: center;
+  font-size: 45px;
+}
+
+.subcribe-button{
+  display: block;
+  margin: auto;
+  align-self: center;
+  background-color: #4BA2FF;
+  font-size: large;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+
+}
+.subcribe-button:hover{
+  display: block;
+  margin: auto;
+  align-self: center;
+  background-color: #007AFF;
+  font-size: large;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+}
+
+.available {
+  color: black; 
+}
+
+
+.unavailable {
+  color: grey;
+}
